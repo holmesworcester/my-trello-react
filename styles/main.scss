@@ -1,0 +1,48 @@
+body {
+	background-color: blue;
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+/* Form styling */
+
+input {
+	font-size: 1em;
+	padding: .6em;
+	margin: .2em 0;
+	border: none;
+	border-radius: .3em;
+}
+
+
+input#submit {
+	margin: 1em;
+	width: 8em;
+	color: white;
+	background-color: inherit;
+	border: .1em solid white;
+	margin-left: 0;
+}
+
+input#submit:hover {
+	color: blue;
+	background-color: white;
+}
+
+.disclosure-message {
+	padding: 1em;
+	font-size: .65em;
+	color: white;
+	font-weight: lighter;
+}
+
+.disclosure-message a {
+	color:inherit;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.disclosure-message a:hover {
+	text-decoration: underline;
+}
